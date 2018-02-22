@@ -109,6 +109,13 @@ figure {
 ==================================== */
 
 @media (min-width: 769px) {
+
+.main-header {
+  position: fixed;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,.4);
+}
+
   .wrap {
     min-height: calc(100vh - 89px);
   }
@@ -183,7 +190,7 @@ figure {
 }
 
 /*--- to make 3 columns appear side by side in large screen ---*/
-/*
+
 @media (min-width: 1025px) {
 
 .container {
@@ -200,4 +207,3 @@ figure {
   width: 30%;
 }
 }
-*/
